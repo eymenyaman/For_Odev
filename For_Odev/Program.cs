@@ -20,28 +20,7 @@
             #endregion
 
 
-            #region YılBaşı Ağacı 
-            int yukseklık = 6; // Piramidin yüksekliği
-
-            for (int i = 1; i <= yukseklık; i++)
-            {
-                // Boşluklar için döngü
-                for (int j = 1; j <= yukseklık - i; j++)
-                {
-                    Console.Write(" ");
-                }
-
-                // Yıldızlar için döngü
-                for (int k = 1; k <= (2 * i - 1); k++)
-                {
-                    Console.Write("*");
-                }
-
-                // Satır bitince bir alt satıra geç
-                Console.WriteLine();
-            }
-
-            #endregion
+            
 
 
 
