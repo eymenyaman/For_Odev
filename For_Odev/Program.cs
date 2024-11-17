@@ -47,7 +47,7 @@
 
             for (int i = 1; i <= 10; i++) // 1Den 10a kadar döner
             {
-                for (int j = 1; j <= 10; j++) // Her bir sayı için 1'den 9'a kadar çarpar
+                for (int j = 1; j <= 10; j++) // Her bir sayı için 1'den 10'a kadar çarpar
                 {
                     Console.WriteLine($"{i} * {j} = {i * j}");
                 }
